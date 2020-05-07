@@ -1,0 +1,28 @@
+.main-section {
+  max-width: 950px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: "Days One";
+}
+
+.head-section {
+  text-align: center;
+  line-height: 5px;
+}
+
+.about-me-section {
+  text-align: center;
+  margin: 100px 0 100px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.tech-stack-table {
+  width: 100%;
+}
+
+.tech-stack-lists {
+  display: flex;
+}
