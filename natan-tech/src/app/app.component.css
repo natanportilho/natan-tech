@@ -26,3 +26,12 @@
 .tech-stack-lists {
   display: flex;
 }
+
+li{
+    list-style-type: none;
+}
+
+.tech-logo{
+    width: 60px;
+    filter: grayscale(100%);
+}
