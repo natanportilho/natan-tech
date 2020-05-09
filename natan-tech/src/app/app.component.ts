@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'natan-tech';
+
+  mouseEnter(info : string){
+    const techInfo = document.getElementById('tech-info');
+    techInfo.style.display = 'block';
+    techInfo.innerText = info;
+ }
+
+ mouseLeave(){
+  const techInfo = document.getElementById('tech-info');
+  techInfo.style.display = 'none';
+ }
 }
