@@ -27,11 +27,30 @@
   display: flex;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
+  display: inline;
 }
 
-.tech-logo{
-    width: 60px;
-    filter: grayscale(100%);
+.tech-logo {
+  width: 60px;
+  margin: 0 10px 0 10px;
+  filter: grayscale(100%);
 }
+
+#typescript-logo {
+  width: 100px;
+}
+
+#dart-logo {
+  width: 100px;
+}
+
+#hybris-logo {
+  width: 115px;
+}
+
+#spring-logo {
+  width: 115px;
+}
+
