@@ -86,7 +86,7 @@ li {
   height: 5em;
   padding: 1.8em;
   /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-  border: dashed 1px;
+  /* border: dashed 1px; */
   border-radius: 50%;
   margin: 1.75em auto 0;
 }
@@ -103,6 +103,15 @@ li {
   display: block;
   width: 100%;
 }
+
+.circle-container .css-logo{
+  width: 42px;
+}
+
+.circle-container .ts-logo{
+  width: 40px;
+}
+
 .deg0 {
   transform: translate(6em);
 } /* 6em = half the width of the wrapper */
