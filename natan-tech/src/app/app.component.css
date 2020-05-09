@@ -1,3 +1,6 @@
+body {
+  color: #1d212c;
+}
 .main-section {
   max-width: 950px;
   padding: 20px;
@@ -29,7 +32,6 @@
 
 li {
   list-style-type: none;
-  display: inline;
 }
 
 .tech-logo {
@@ -73,6 +75,70 @@ li {
   text-align: center;
   border-top: black 1px solid;
   padding-top: 10px;
-  height: 50px;
-  background-color: cornflowerblue;
+  height: 100px;
+  background-color: #1d212c;
+  color: aliceblue;
+}
+
+.circle-container {
+  position: relative;
+  width: 5em;
+  height: 5em;
+  padding: 1.8em;
+  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  border: dashed 1px;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+}
+.circle-container a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4em;
+  height: 4em;
+  margin: -2em;
+}
+.circle-container img {
+  display: block;
+  width: 100%;
+}
+.deg0 {
+  transform: translate(6em);
+} /* 6em = half the width of the wrapper */
+.deg45 {
+  transform: rotate(45deg) translate(6em) rotate(-45deg);
+}
+.deg135 {
+  transform: rotate(135deg) translate(6em) rotate(-135deg);
+}
+.deg180 {
+  transform: translate(-6em);
+}
+.deg225 {
+  transform: rotate(225deg) translate(6em) rotate(-225deg);
+}
+.deg315 {
+  transform: rotate(315deg) translate(6em) rotate(-315deg);
+}
+
+.center {
+  font-size: 10px;
+  text-align: center;
+  padding: 0;
+  line-height: 0.5;
+}
+
+.first-circle {
+  float: left;
+  margin-left: 40px;
+}
+
+.third-circle {
+  float: right;
+  margin-right: 40px;
+}
+
+.tech-stack-section {
+  display: flex;
 }
