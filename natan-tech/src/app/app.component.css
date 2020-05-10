@@ -15,10 +15,10 @@ html {
   padding: 20px;
   margin: 0 auto;
   font-family: "Days One";
-  height: 93vh;
+  height: 100vh;
 }
 
-.skills-section{
+.skills-section {
   height: 100vh;
 }
 
@@ -35,18 +35,18 @@ html {
 }
 
 .arrow-down {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-top: 15px solid #ff006e;
 }
 
-.arrow-down:hover{
+.arrow-down:hover {
   cursor: pointer;
 }
 
-.go-down{
+.go-down {
   border-radius: 24%;
   padding: 15px 10px 15px 10px;
   width: min-content;
@@ -193,17 +193,49 @@ li {
   display: flex;
 }
 
-.header-link{
+.header-link {
   text-decoration: none;
 }
 
-#github-url{
+#github-url {
   color: #ff006e;
 }
-#linkedin-url{
+#linkedin-url {
   color: #2a9d8f;
 }
 
-.holder{
-  height: 1000px;
+#skills {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills-section {
+  padding-top: 80px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.tech-relation-1 {
+  color: #ff006e;
+}
+
+.tech-relation-2 {
+  color: #2a9d8f;
+}
+
+.tech-relation-3 {
+  color: #457b9d;
+}
+
+.tech-relation-4 {
+  color: #f4a261;
+}
+
+.tech-relation-5{
+  color: #007bba;
+}
+
+.tech-relation-6{
+  color: #b56576;
 }
