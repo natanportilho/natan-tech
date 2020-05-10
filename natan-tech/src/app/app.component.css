@@ -189,6 +189,12 @@ li {
 }
 
 .header-link{
-  color: #ff006e;
   text-decoration: none;
+}
+
+#github-url{
+  color: #ff006e;
+}
+#linkedin-url{
+  color: #2a9d8f;
 }
