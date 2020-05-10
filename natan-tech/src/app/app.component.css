@@ -187,3 +187,8 @@ li {
 .tech-stack-section {
   display: flex;
 }
+
+.header-link{
+  color: #ff006e;
+  text-decoration: none;
+}
