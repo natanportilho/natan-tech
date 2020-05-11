@@ -53,6 +53,11 @@ html {
   text-align: center;
 }
 
+#go-to-projects {
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
 .hello {
   font-size: 25px;
 }
