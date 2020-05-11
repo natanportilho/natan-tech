@@ -210,9 +210,29 @@ li {
   font-weight: bold;
 }
 
+#experience {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.company-name {
+  color: #447a9a;
+}
+
+.company-position {
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+.year-experience {
+  float: right;
+  font-size: 15px;
+}
+
 .skills-section {
   padding-top: 80px;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -232,10 +252,10 @@ li {
   color: #f4a261;
 }
 
-.tech-relation-5{
+.tech-relation-5 {
   color: #007bba;
 }
 
-.tech-relation-6{
+.tech-relation-6 {
   color: #b56576;
 }
