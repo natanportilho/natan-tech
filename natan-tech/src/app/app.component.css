@@ -58,6 +58,10 @@ html {
   margin: 0 auto;
 }
 
+#projects-section {
+  height: 100vh;
+}
+
 .hello {
   font-size: 25px;
 }
