@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,17 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'natan-tech';
 
-  mouseEnter(info : string){
+  ngOnInit() {
+    AOS.init();
+  }
+
+  mouseEnter(info: string) {
     const techInfo = document.getElementById('tech-info');
     techInfo.style.display = 'block';
     techInfo.innerText = info;
  }
 
- mouseLeave(){
+ mouseLeave() {
   const techInfo = document.getElementById('tech-info');
   techInfo.style.display = 'none';
  }
