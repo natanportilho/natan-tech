@@ -288,3 +288,8 @@ li {
   -webkit-border-radius: 50px;
   border-radius: 50px
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
