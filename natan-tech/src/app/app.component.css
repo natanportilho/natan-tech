@@ -247,6 +247,11 @@ li {
 
 .projects-h2 {
   text-align: center;
+  color: #2a9d8f;
+}
+
+.project-name.aos-init.aos-animate {
+  color: #007bba;
 }
 
 a {
@@ -267,10 +272,14 @@ img {
   border-radius: 20px;
 }
 
-.project:hover{
+.project:hover {
   background-color: #175873;
 }
 
 .back-to-the-top {
   text-align: center;
+}
+
+.project-name {
+  font-weight: bold;
 }
