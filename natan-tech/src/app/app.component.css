@@ -268,3 +268,23 @@ li {
 .tech-relation-6 {
   color: #b56576;
 }
+
+#projects-section {
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 80px;
+}
+
+.projects-h2 {
+  text-align: center;
+}
+
+.circle
+{
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px
+}
