@@ -130,38 +130,6 @@ li {
   color: aliceblue;
 }
 
-.circle-container {
-  position: relative;
-  width: 5em;
-  height: 5em;
-  padding: 1.8em;
-  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-  /* border: dashed 1px; */
-  border-radius: 50%;
-  margin: 1.75em auto 0;
-}
-.circle-container a {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 4em;
-  height: 4em;
-  margin: -2em;
-}
-.circle-container img {
-  display: block;
-  width: 100%;
-}
-
-.circle-container .css-logo {
-  width: 42px;
-}
-
-.circle-container .ts-logo {
-  width: 40px;
-}
-
 .deg0 {
   transform: translate(6em);
 } /* 6em = half the width of the wrapper */
@@ -186,16 +154,6 @@ li {
   text-align: center;
   padding: 0;
   line-height: 0.5;
-}
-
-.first-circle {
-  float: left;
-  margin-left: 40px;
-}
-
-.third-circle {
-  float: right;
-  margin-right: 40px;
 }
 
 .tech-stack-section {
