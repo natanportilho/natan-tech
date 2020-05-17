@@ -46,6 +46,18 @@ html {
   cursor: pointer;
 }
 
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 15px solid #ff006e;
+}
+
+.arrow-up:hover {
+  cursor: pointer;
+}
+
 .go-down {
   border-radius: 24%;
   padding: 15px 10px 15px 10px;
@@ -257,4 +269,8 @@ img {
 
 .project:hover{
   background-color: #175873;
+}
+
+.back-to-the-top {
+  text-align: center;
 }
