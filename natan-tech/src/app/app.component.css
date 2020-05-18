@@ -240,6 +240,7 @@ li {
 
 .project-name.aos-init.aos-animate {
   color: #007bba;
+  font-size: 20px;
 }
 
 a {
@@ -270,4 +271,16 @@ img {
 
 .project-name {
   font-weight: bold;
+}
+
+.projects-h2.aos-init.aos-animate {
+  color: #f4a261;
+  font-size: 40px;
+  line-height: 0;
+}
+
+.projects-all-description{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
