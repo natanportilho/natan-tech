@@ -1,15 +1,3 @@
-body {
-  color: white;
-}
-
-html {
-  margin: 0;
-  padding: 0;
-  /* background-color: #FFCC00; */
-  background-color: #1d212c;
-  /* height: 200vh; */
-}
-
 .main-section {
   max-width: 950px;
   padding: 20px;
