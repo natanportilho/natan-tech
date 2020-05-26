@@ -290,4 +290,17 @@ img {
     display: grid;
     text-align: center;
   }
+
+  .natan {
+    font-size: 20px;
+  }
+
+  .hello.aos-init.aos-animate {
+    font-size: 20px;
+  }
+
+  .about-me-section {
+    font-size: 13px;
+    text-align: center;
+  }
 }
