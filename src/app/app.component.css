@@ -3,11 +3,11 @@
   padding: 20px;
   margin: 0 auto;
   font-family: "Days One";
-  height: 100vh;
+  height: 85vh;
 }
 
 .skills-section {
-  height: 100vh;
+  height: 73vh;
 }
 
 .head-section {
@@ -285,6 +285,10 @@ img {
   color: white;
 }
 
+#go-to-experience {
+  display: none;
+}
+
 @media only screen and (max-width: 455px) {
   .contact-links {
     display: grid;
@@ -302,5 +306,75 @@ img {
   .about-me-section {
     font-size: 13px;
     text-align: center;
+  }
+
+  .skills-section {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .main-section {
+    height: 88vh;
+  }
+
+  #skills {
+    display: block;
+  }
+
+  .about-me-section {
+    margin: 100px 0 40px 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  #go-to-experience {
+    display: block;
+  }
+
+  #projects-section {
+    padding-top: 1085px;
+  }
+
+  #experience {
+    text-align: center;
+  }
+
+  .year-experience {
+    display: block;
+    float: none;
+  }
+
+  #experience-section {
+    padding-top: 40px;
+  }
+
+  .skills-section {
+    padding-top: 30px;
+  }
+
+  #go-to-experience {
+    padding-top: 33px;
+  }
+
+  .back-to-the-top {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #projects-section {
+    width: auto;
+  }
+
+  .go-down {
+    margin: 0 auto;
   }
 }
