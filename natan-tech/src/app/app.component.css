@@ -314,6 +314,10 @@ img {
 }
 
 @media only screen and (max-width: 649px) {
+  .main-section {
+    height: 88vh;
+  }
+
   #skills {
     display: block;
   }
@@ -336,7 +340,7 @@ img {
   }
 
   #projects-section {
-    padding-top: 721px;
+    padding-top: 1085px;
   }
 
   #experience {
