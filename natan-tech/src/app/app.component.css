@@ -3,11 +3,11 @@
   padding: 20px;
   margin: 0 auto;
   font-family: "Days One";
-  height: 100vh;
+  height: 85vh;
 }
 
 .skills-section {
-  height: 100vh;
+  height: 73vh;
 }
 
 .head-section {
@@ -353,11 +353,15 @@ img {
   }
 
   .skills-section {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   #go-to-experience {
-    padding-top: 50px;
+    padding-top: 33px;
+  }
+
+  .back-to-the-top {
+    margin-top: -50px;
   }
 }
 
