@@ -4,6 +4,7 @@
   margin: 0 auto;
   font-family: "Days One";
   height: 85vh;
+  margin-bottom: 100px;
 }
 
 .skills-section {
@@ -196,6 +197,7 @@ li {
   padding-top: 80px;
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 200px;
 }
 
 .tech-relation-1 {
