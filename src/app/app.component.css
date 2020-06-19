@@ -70,6 +70,7 @@
 
 .title {
   text-align: center;
+  font-size: 27px;
 }
 
 .tech-stack-lists {
@@ -197,7 +198,6 @@ li {
   padding-top: 80px;
   max-width: 1000px;
   margin: 0 auto;
-  margin-bottom: 200px;
 }
 
 .tech-relation-1 {
@@ -227,7 +227,6 @@ li {
 #projects-section {
   margin: 0 auto;
   width: 1000px;
-  padding-top: 80px;
 }
 
 .projects-h2 {
@@ -287,6 +286,8 @@ img {
 }
 
 @media only screen and (max-width: 455px) {
+
+
   .contact-links {
     display: grid;
     text-align: center;
@@ -338,6 +339,7 @@ img {
 
   #projects-section {
     margin-top: 450px;
+    /* margin-top: 585px; */
   }
 
   #experience {
