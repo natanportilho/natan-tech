@@ -46,13 +46,6 @@
   cursor: pointer;
 }
 
-.go-down {
-  border-radius: 24%;
-  padding: 15px 10px 15px 10px;
-  width: min-content;
-  text-align: center;
-}
-
 #go-to-projects {
   padding-top: 100px;
   margin: 0 auto;
@@ -372,9 +365,5 @@ img {
 @media only screen and (max-width: 1024px) {
   #projects-section {
     width: auto;
-  }
-
-  .go-down {
-    margin: 0 auto;
   }
 }
